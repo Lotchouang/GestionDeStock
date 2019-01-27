@@ -97,7 +97,7 @@
                                                         <input type="text" class="form-control" id="searchFournisseur" placeholder="fournisseur" />
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="date">Date</label>
+                                                        <label for="date">Date commande</label>
                                                         <input type="date" class="form-control" id="date" placeholder="date" />
                                                     </div>
                                                     <div class="form-group">
