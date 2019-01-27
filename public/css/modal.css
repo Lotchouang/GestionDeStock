@@ -1,0 +1,36 @@
+.modall{
+    background-color: rgb(0, 0, .8);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+.modall__content{
+    width: 550px;
+    height: 600px;
+    background-color: #fff;
+    position: absolute;
+    top:50px;
+    left: 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 1em;
+    opacity: 0;
+    z-index: 1;
+    visibility: hidden;
+    transition: all .5s;
+}
+.modall_open{
+    display: inline-block;
+}
+#modall:target{
+    opacity: 1;
+    visibility: visible;
+}
+#modall:target .modall__content{
+    opacity: 1;
+    visibility: visible;
+}

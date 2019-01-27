@@ -1,0 +1,20 @@
+ReWriteEngine on
+#gestion de l'acceuil de la plate forme
+
+
+ReWriteRule ^.{0}$ index.php
+
+#gestion des vues
+
+ReWriteRule ^ajoutCommande$ src/view/commande/ajoutCommande.php
+ReWriteRule ^listeCommande$ src/view/commande/listeCommande.php
+
+ReWriteRule ^ajoutLivraison$ src/view/livraison/ajoutLivraison.php
+ReWriteRule ^listeLivraison$ src/view/livraison/listeLivraison.php
+
+ReWriteRule ^produit$ src/view/stock/produit.php
+ReWriteRule ^categorie$ src/view/stock/categorie.php
+
+#ReWriteRule ^produit$ view/stock/produit.php
+#ReWriteRule ^categorie$ view/stock/categorie.php
+
